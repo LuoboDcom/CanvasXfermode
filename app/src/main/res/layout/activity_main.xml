@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.ys.newview.canvasxfermode.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.ys.newview.canvasxfermode.widget.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_marginBottom="4dp"
+            android:background="@mipmap/bg"
+            app:Xfermode="CLEAR" />
+
+        <com.ys.newview.canvasxfermode.widget.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_marginBottom="4dp"
+            android:background="@mipmap/bg"
+            app:Xfermode="SRC" />
+
+        <com.ys.newview.canvasxfermode.widget.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_marginBottom="4dp"
+            android:background="@mipmap/bg"
+            app:Xfermode="DST" />
+
+        <com.ys.newview.canvasxfermode.widget.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_marginBottom="4dp"
+            android:background="@mipmap/bg"
+            app:Xfermode="SRC_OVER" />
+
+
+        <com.ys.newview.canvasxfermode.widget.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_marginBottom="4dp"
+            android:background="@mipmap/bg"
+            app:Xfermode="DST_OVER" />
+
+        <com.ys.newview.canvasxfermode.widget.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_marginBottom="4dp"
+            android:background="@mipmap/bg"
+            app:Xfermode="SRC_IN" />
+
+        <com.ys.newview.canvasxfermode.widget.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_marginBottom="4dp"
+            android:background="@mipmap/bg"
+            app:Xfermode="DST_IN" />
+
+        <com.ys.newview.canvasxfermode.widget.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_marginBottom="4dp"
+            android:background="@mipmap/bg"
+            app:Xfermode="SRC_OUT" />
+
+        <com.ys.newview.canvasxfermode.widget.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_marginBottom="4dp"
+            android:background="@mipmap/bg"
+            app:Xfermode="DST_OUT" />
+
+        <com.ys.newview.canvasxfermode.widget.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_marginBottom="4dp"
+            android:background="@mipmap/bg"
+            app:Xfermode="SRC_ATOP" />
+
+        <com.ys.newview.canvasxfermode.widget.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_marginBottom="4dp"
+            android:background="@mipmap/bg"
+            app:Xfermode="DST_ATOP" />
+
+        <com.ys.newview.canvasxfermode.widget.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_marginBottom="4dp"
+            android:background="@mipmap/bg"
+            app:Xfermode="XOR" />
+
+
+        <com.ys.newview.canvasxfermode.widget.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_marginBottom="4dp"
+            android:background="@mipmap/bg"
+            app:Xfermode="DARKEN" />
+
+        <com.ys.newview.canvasxfermode.widget.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_marginBottom="4dp"
+            android:background="@mipmap/bg"
+            app:Xfermode="LIGHTEN" />
+
+        <com.ys.newview.canvasxfermode.widget.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_marginBottom="4dp"
+            android:background="@mipmap/bg"
+            app:Xfermode="MULTIPLY" />
+
+
+        <com.ys.newview.canvasxfermode.widget.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_marginBottom="4dp"
+            android:background="@mipmap/bg"
+            app:Xfermode="SCREEN" />
+
+        <com.ys.newview.canvasxfermode.widget.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_marginBottom="4dp"
+            android:background="@mipmap/bg"
+            app:Xfermode="ADD" />
+
+        <com.ys.newview.canvasxfermode.widget.CustomView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_1"
+            android:layout_marginBottom="4dp"
+            android:background="@mipmap/bg"
+            app:Xfermode="OVERLAY" />
+
+    </LinearLayout>
+
+</ScrollView>
+
